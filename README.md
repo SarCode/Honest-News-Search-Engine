@@ -40,7 +40,7 @@ git clone https://github.com/SarCode/Honest-News-Search-Engine.git
 2. Install the required dependencies:
 
 ```
-pip install -r requirements.txt
+sh setup.sh
 ```
 
 
