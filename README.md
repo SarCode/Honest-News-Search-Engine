@@ -51,7 +51,7 @@ python3 app.py
 ```
 
 
-4. Open your web browser and navigate to `http://localhost:5000` to access the application.
+4. Web browser will automatically open the search engine `http://0.0.0.0:5005/` to access the application.
 
 ## Contributing
 

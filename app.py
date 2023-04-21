@@ -3,6 +3,7 @@ from src.model import get_sentiment
 from flask import Flask, request, render_template
 import flask.cli
 import random
+import webbrowser
 
 
 app = Flask(__name__)
@@ -53,5 +54,7 @@ if __name__ == "__main__":
     model, data_index = index_data.load(INDEX_PATH)
 
     flask.cli.show_server_banner = lambda *args: None
-
+    webbrowser.open('http://0.0.0.0:5005') 
     app.run(debug=False, host='0.0.0.0', port=5005)
+    
+
